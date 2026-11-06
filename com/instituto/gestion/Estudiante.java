@@ -21,10 +21,27 @@ public class Estudiante {
         System.out.println("Nota media del estudiante: " + notaMedia);
     }
     
+    /**
+     * Método que muestra la nota media
+     */
     public void setNotaMedia(double nuevaNota){
         notaMedia = nuevaNota; //notaMedia es el atributo, nuevaNota es el parámetro
     
         String mensaje = ("AVISO: la nota media ha sido actualizada");
         System.out.println(mensaje);
+    }
+    
+    /**
+     * Método que verifica si un estudiante
+     * ha aprobado o suspendido
+     */
+    public boolean estaAprobado(){
+        boolean resultado = false;
+        if (notaMedia >= 5.0){
+            resultado = true;
+        }else{
+            resultado = false;
+        }
+        return resultado;
     }
 }
