@@ -16,7 +16,15 @@ public class Estudiante {
      * Método para mostrar información
      */
     public void mostrarInformacion(){
-    System.out.println("Nombre del estudiante: " + nombre);
-    System.out.println("Edad del estudiante: " +  edad);
+        System.out.println("Nombre del estudiante: " + nombre);
+        System.out.println("Edad del estudiante: " +  edad);
+        System.out.println("Nota media del estudiante: " + notaMedia);
+    }
+    
+    public void setNotaMedia(double nuevaNota){
+        notaMedia = nuevaNota; //notaMedia es el atributo, nuevaNota es el parámetro
+    
+        String mensaje = ("AVISO: la nota media ha sido actualizada");
+        System.out.println(mensaje);
     }
 }

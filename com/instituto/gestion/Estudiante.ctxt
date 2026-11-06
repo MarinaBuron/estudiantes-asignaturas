@@ -4,4 +4,6 @@ comment0.text=\r\n\ Clase\ Estudiante\ creada\ para\ instituto,\r\n\ dentro\ de\
 comment1.params=
 comment1.target=void\ mostrarInformacion()
 comment1.text=\r\n\ M\u00E9todo\ para\ mostrar\ informaci\u00F3n\r\n
-numComments=2
+comment2.params=nuevaNota
+comment2.target=void\ setNotaMedia(double)
+numComments=3
