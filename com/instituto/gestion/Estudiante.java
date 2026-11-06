@@ -2,12 +2,12 @@ package com.instituto.gestion;
 
 
 /**
- * Write a description of class Estudiante here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
+ * Clase Estudiante creada para instituto,
+ * dentro de gestión
+ * Autor: Marina Burón
  */
 public class Estudiante
+//Esta es la definición de la clase
 {
     // instance variables - replace the example below with your own
     private int x;
