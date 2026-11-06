@@ -1,4 +1,7 @@
 #BlueJ class context
 comment0.target=Estudiante
 comment0.text=\r\n\ Clase\ Estudiante\ creada\ para\ instituto,\r\n\ dentro\ de\ gesti\u00F3n\r\n\ @author\ Marina\ Bur\u00F3n\r\n
-numComments=1
+comment1.params=
+comment1.target=void\ mostrarInformacion()
+comment1.text=\r\n\ M\u00E9todo\ para\ mostrar\ informaci\u00F3n\r\n
+numComments=2

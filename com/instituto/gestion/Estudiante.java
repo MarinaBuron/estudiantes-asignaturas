@@ -12,4 +12,11 @@ public class Estudiante {
     private int edad;
     private double notaMedia; //la nota media puede ser decimal
     
+    /**
+     * Método para mostrar información
+     */
+    public void mostrarInformacion(){
+    System.out.println("Nombre del estudiante: " + nombre);
+    System.out.println("Edad del estudiante: " +  edad);
+    }
 }
