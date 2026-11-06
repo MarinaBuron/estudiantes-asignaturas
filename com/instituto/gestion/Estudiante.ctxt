@@ -1,10 +1,4 @@
 #BlueJ class context
 comment0.target=Estudiante
-comment0.text=\r\n\ Clase\ Estudiante\ creada\ para\ instituto,\r\n\ dentro\ de\ gesti\u00F3n\r\n\ Autor\:\ Marina\ Bur\u00F3n\r\n
-comment1.params=
-comment1.target=Estudiante()
-comment1.text=\r\n\ Constructor\ for\ objects\ of\ class\ Estudiante\r\n
-comment2.params=y
-comment2.target=int\ sampleMethod(int)
-comment2.text=\r\n\ An\ example\ of\ a\ method\ -\ replace\ this\ comment\ with\ your\ own\r\n\ \r\n\ @param\ \ y\ \ \ a\ sample\ parameter\ for\ a\ method\r\n\ @return\ \ \ \ \ the\ sum\ of\ x\ and\ y\ \r\n
-numComments=3
+comment0.text=\r\n\ Clase\ Estudiante\ creada\ para\ instituto,\r\n\ dentro\ de\ gesti\u00F3n\r\n\ @author\ Marina\ Bur\u00F3n\r\n
+numComments=1
