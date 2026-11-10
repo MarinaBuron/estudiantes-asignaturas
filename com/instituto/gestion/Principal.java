@@ -36,5 +36,13 @@ public class Principal {
         
         System.out.println("¿Ha aprobado " + estudiante1.getNotaMedia() + "? " + estudiante1.estaAprobado());
         System.out.println("¿Ha aprobado " + estudiante2.getNotaMedia() + "? " + estudiante2.estaAprobado());
+        
+        //Usando los métodos de la clase Asignatura para mostrar el nombre y créditos
+        System.out.println("--- Datos de la asignatura ---");
+        Asignatura modulo1 = new Asignatura();
+        //Usando los setters
+        modulo1.setNombre("Bases de datos");
+        modulo1.setCreditos(6);
+        modulo1.mostrarInfoAsignatura();
     }
 }

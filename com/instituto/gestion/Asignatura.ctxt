@@ -1,0 +1,13 @@
+#BlueJ class context
+comment0.target=Asignatura
+comment0.text=\r\n\ Write\ a\ description\ of\ class\ Asignatura\ here.\r\n\ \r\n\ @author\ (your\ name)\ \r\n\ @version\ (a\ version\ number\ or\ a\ date)\r\n
+comment1.params=elNombre
+comment1.target=void\ setNombre(java.lang.String)
+comment1.text=\r\n\ M\u00E9todo\ setter\ para\ guardar\ el\ nombre\r\n
+comment2.params=losCreditos
+comment2.target=void\ setCreditos(int)
+comment2.text=\r\n\ M\u00E9todo\ setter\ para\ guardar\ los\ cr\u00E9ditos\r\n
+comment3.params=
+comment3.target=void\ mostrarInfoAsignatura()
+comment3.text=\r\n\ M\u00E9todo\ para\ mostrar\ el\ nombre\ y\ los\ cr\u00E9ditos\ de\ la\ asignatura\r\n
+numComments=4
