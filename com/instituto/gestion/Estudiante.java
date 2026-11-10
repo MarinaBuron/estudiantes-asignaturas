@@ -11,7 +11,7 @@ public class Estudiante {
     private String nombre;
     private int edad;
     private double notaMedia; //la nota media puede ser decimal
-    
+        
     /**
      * Método para mostrar información
      */
@@ -27,7 +27,7 @@ public class Estudiante {
     public void setNotaMedia(double nuevaNota){
         notaMedia = nuevaNota; //notaMedia es el atributo, nuevaNota es el parámetro
     
-        String mensaje = ("AVISO: la nota media ha sido actualizada");
+        String mensaje = ("AVISO: la nota media ha sido actualizada.");
         System.out.println(mensaje);
     }
     
