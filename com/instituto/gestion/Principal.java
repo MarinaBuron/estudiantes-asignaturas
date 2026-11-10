@@ -25,5 +25,16 @@ public class Principal {
         
         System.out.println("Mostrar los datos del estudiante 2");
         estudiante2.mostrarInformacion();
+        
+        //Usando los otros métodos
+        System.out.println("Actualizando notas...");
+        estudiante1.setNotaMedia(7.5);
+        estudiante2.setNotaMedia(4.2);
+        
+        estudiante1.mostrarInformacion();
+        estudiante2.mostrarInformacion();
+        
+        System.out.println("¿Ha aprobado " + estudiante1.getNotaMedia() + "? " + estudiante1.estaAprobado());
+        System.out.println("¿Ha aprobado " + estudiante2.getNotaMedia() + "? " + estudiante2.estaAprobado());
     }
 }
